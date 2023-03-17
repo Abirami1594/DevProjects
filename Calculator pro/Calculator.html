@@ -1,0 +1,86 @@
+<html>
+<head>
+    <title>
+        Scientific Calculator
+    </title>
+   <style>
+    input{
+    height:70px;
+    width:100px;
+    text-align:right;
+    font-size: 35px;
+}
+
+button{
+    height:30px;
+    width:50px;
+}
+table{
+    border-collapse:collapse;
+    margin-top: 40px;
+    
+}
+#zero{
+    width: 215px;
+}
+#equal{
+    height: 145px;
+}
+.zeroalign{
+    margin-left: 450px;
+}
+
+   </style>
+</head>
+<body>
+    
+
+    <table  border="5px" cellpadding="6px">
+        <tr>
+            <td colspan="5"><input class="zeroalign" type="text" value="0" ></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="MC"></td>
+            <td><input type="button" value="MR"></td>
+            <td><input type="button" value="MS"></td>
+            <td><input type="button" value="M+"></td>
+            <td><input type="button" value="M-"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="&#8592"> </td>    <!--using entity number/-->
+            <td><input type="button" value="CE"></td>
+            <td><input type="button" value="C"></td>
+            <td><input type="button" value="&#177"></td>
+            <td><input type="button" value="&#8730"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="7"></td>
+            <td><input type="button" value="8"></td>
+            <td><input type="button" value="9"></td>
+            <td><input type="button" value="/"></td>
+            <td><input type="button" value="%"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="4"></td>
+            <td><input type="button" value="5"></td>
+            <td><input type="button" value="6"></td>
+            <td><input type="button" value="*"></td>
+            <td><input type="button" value="1/x"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="1"></td>
+            <td><input type="button" value="2"></td>
+            <td><input type="button" value="3"></td>
+            <td><input type="button" value="-"></td>
+            <td rowspan="2"><input id="equal" type="button" value="="></td>
+        </tr>
+          <tr>
+            <td colspan="2"><input id="zero" type="button" value="0"></td>
+            <td><input type="button" value="."></td>
+            <td><input type="button" value="+"></td>
+          </tr>
+       
+    </table>
+
+</body>
+</html>
