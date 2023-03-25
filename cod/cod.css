@@ -1,0 +1,118 @@
+.navbar a
+{
+    text-decoration: none;
+    padding-right: 20px;
+    color:black;    
+
+
+}
+
+.navbar
+{
+    text-align: right;
+    right: 40px;
+    
+    
+}
+.logo {
+    position: absolute;
+    bottom: 450px;
+    width: 90px;
+    left: 50px;
+
+    
+}
+.logo img{
+ width:140px;
+ height:130px;
+}
+.letter{
+    position: absolute;
+    bottom: 470px;
+    left:200px;
+    color: #176554;
+    font-size:x-large;
+
+}
+.fullcon{
+    position: absolute;
+    background-color: #D0D9CD;
+    width: 1000px;
+    height:433px ;
+    left:200px;
+}
+.firststcon{
+    position: absolute;
+    background-image: url("images/boomerang-home-flash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 850px;
+    height:380px ;
+    left: 130px;
+    bottom: 20px;
+}
+.seccon{
+    position: absolute;
+    background-color: white;
+    width:500px;
+    height:320px;
+    left:730px;
+    bottom:50px;
+    
+    
+    
+}
+
+.align{
+
+    
+    position: absolute;
+    left: 30px;
+    width: 340px;
+    color: #176554;
+    
+
+}
+/*Responsive*/
+@media(max-width:890px){
+    #con{
+       
+        position: fixed;
+        padding-left: 20px;
+    }
+}
+
+@media(max-width:890px){
+    body{
+        padding: 20px 3%;
+        transition: .4s;
+    }
+}
+@media(max-width:630px){
+    .fullcon{
+        position: fixed;
+
+        padding-left: 20px;
+     }
+     .firststcon{
+        position: fixed;
+        padding-left: 20px;
+      
+     }
+     .seccon{
+        position: fixed;
+        padding-left: 20px;
+        }
+     .seccon h1{
+        position: fixed;
+        padding-left: 20px;
+     }
+     .seccon p{
+        position: fixed;
+        padding-left: 20px;
+     }
+     
+
+
+}
+
